@@ -1,4 +1,4 @@
-### Företagsnamn:
+## Företagsnamn:
 CyberSteed
 ### Mission Statement:
 "Att revolutionera leksaksindustrin genom att erbjuda innovativa och högteknologiska käpphästar som kombinerar traditionell lek med modern teknik."
@@ -14,10 +14,10 @@ CyberSteed erbjuder en serie cybernetiska käpphästar med olika motoralternativ
 ### USP: 
 CyberSteed kombinerar traditionell lek med banbrytande teknik för att skapa en unik och interaktiv upplevelse. Våra cybernetiska käpphästar är inte bara leksaker, utan också högteknologiska enheter som kan anpassas och uppgraderas för att passa användarens behov och preferenser. Med funktioner som AI-styrning, VR-integration och olika motoralternativ erbjuder vi en produkt som ingen annan på marknaden.
 
+---
 
 
-
-### Företagsnamn
+## Företagsnamn
 **Namn**: DPS Blöjan
 
 ### Mission Statement
@@ -39,8 +39,9 @@ CyberSteed kombinerar traditionell lek med banbrytande teknik för att skapa en 
 ### Unik Säljpunkt (USP)
 **USP**: DPS Blöjan är den första och enda blöjan designad specifikt för gamers, med fokus på komfort, diskretion och hög absorptionsförmåga. Våra produkter gör det möjligt för gamers att hålla sig fokuserade och prestera på toppnivå utan att behöva oroa sig för avbrott. Med DPS Blöjan och våra energidryckspaket kan du vinna DPS-mätaren och hålla dig i spelet längre, med maximal energi och fokus.
 
+---
 
-### Företagsnamn
+## Företagsnamn
 **Namn**: Inte Kapitalist, Men
 
 ### Mission Statement
