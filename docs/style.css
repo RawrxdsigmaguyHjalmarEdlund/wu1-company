@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Wedges';
+  src: url('Wedges.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 :root {
   --container-width: 58rem;
   --step-1: clamp(1.35rem, 1.2761rem + 0.3696vw, 1.5625rem);
@@ -18,8 +26,13 @@ html,
 body {
   margin: 0;
 }
-body {
-  font-family: sans-serif;
+h1 {
+  font-family: 'wedges';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body{
   font-size: var(--step-1);
 }
 
@@ -37,7 +50,7 @@ img {
 
   font-size: var(--step-2);
   text-transform: uppercase;
-  font-weight: 600;
+
 
   color: var(--color-light);
   background-color: var(--color-dark);
@@ -65,19 +78,18 @@ img {
 /* hero */
 
 .hero {
-  display: grid;
-  grid-template-areas: "hero";
-  place-items: center;
-  max-height: 60vh;
+  display: block;
+  height: 100vh;
   background-color: var(--color-dark);
   color: var(--color-light);
 }
 .hero > * {
-  grid-area: hero;
+  height: 100%;
+  width: 100%;
 }
 .hero-content h1 {
   font-size: var(--step-7);
-  font-weight: 800;
+  font-weight: 300;
   text-transform: uppercase;
   color: var(--color-secondary);
 }
@@ -86,11 +98,11 @@ img {
 }
 
 .hero-image {
-  max-height: 60vh;
+  height: 100%;
   width: 100%;
-  aspect-ratio: 16/9;
   object-fit: cover;
   object-position: center;
+  display: block;
 }
 
 /* main content */
@@ -109,6 +121,9 @@ img {
 }
 
 .testimonials-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
@@ -119,11 +134,14 @@ img {
 
 .testimonials-list li {
   flex: 1 1 15rem;
+  justify-content: center;
 }
 
 .testimonials img {
   border-radius: 100%;
   aspect-ratio: 1;
+  min-width: 350px;
+  max-width: 350px;
 }
 
 /* footer */
