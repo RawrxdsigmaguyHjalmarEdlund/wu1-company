@@ -15,9 +15,9 @@
   --step-7: clamp(4.0311rem, 3.36rem + 3.3555vw, 5.9605rem);
 
   --color-dark: #333;
-  --color-light: #f1f1f1;
-  --color-primary: hsl(240, 67%, 40%);
-  --color-secondary: hsl(281, 76%, 58%);
+  --color-light: #f9f9f9;
+  --color-primary: #2E1D60;
+  --color-secondary: #EEC061;
 }
 
 /* reset */
@@ -31,6 +31,10 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  letter-spacing: 2px;
+}
+p{
+font-family: Georgia;
 }
 body{
   font-size: var(--step-1);
@@ -168,7 +172,7 @@ img {
 
 .card-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 1rem;
 }
 
