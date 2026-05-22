@@ -31,10 +31,6 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  letter-spacing: 2px;
-}
-p{
-font-family: Georgia;
 }
 body{
   font-size: var(--step-1);
@@ -172,7 +168,7 @@ img {
 
 .card-list {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 1rem;
 }
 
@@ -198,4 +194,15 @@ img {
 
 .card-content {
   padding: 1rem;
+}
+.kontakt {
+  max-width: 28rem;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  border: 5px solid rgba(46, 29, 96, 0.25);
+  border-radius: 1rem;
+  text-align: center;
+  list-style: none;
 }
