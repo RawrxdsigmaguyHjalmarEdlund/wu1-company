@@ -1,1 +1,1 @@
-Jag fixade blderna nu är de compressad.
+Jag fixade blderna nu är de compressad. länkarna fungerar!!!

@@ -151,6 +151,15 @@ img {
   background-color: var(--color-primary);
 }
 
+.site-foot a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+.site-foot a:hover {
+  text-decoration: underline;
+}
+
 .site-foot ul {
   display: flex;
   justify-content: space-between;
